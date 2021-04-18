@@ -1,4 +1,6 @@
 .App {
+  background-color: #a50000;
+  height: 100vh;
   text-align: center;
 }
 
@@ -9,13 +11,22 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 25s linear;
+    border-color: snow;
+    background-color: tan;
+    box-shadow: black;
+    border: solid;
   }
 }
 
+.nav {
+  background-color: wheat;
+  color: wheat;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #a50000;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +46,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  padding: 5px 5px 5px 5px;
+  font-family: monospace;
+  background-color: burlywood;
+  width: 50%;
 }

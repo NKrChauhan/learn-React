@@ -1,0 +1,24 @@
+.text {
+  background-color: wheat;
+  color: tomato;
+  padding: 10px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 20px;
+  font-family: cursive;
+}
+
+.rotate-logo {
+  animation: App-logo-spin infinite 25s linear;
+  border-color: snow;
+  height: 200px;
+  background-color: tan;
+  box-shadow: black;
+  border: solid;
+}
+.btn-primary {
+  color: white;
+  background-color: crimson;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
