@@ -1,9 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Project-1
 # dependencies
 /practice-1/node_modules
 /practice-1/.pnp
-/practice-1.pnp.js
+/practice-1/.pnp.js
 
 # testing
 /practice-1/coverage
@@ -21,3 +22,26 @@
 /practice-1/npm-debug.log*
 /practice-1/yarn-debug.log*
 /practice-1/yarn-error.log*
+
+# Project-2
+# dependencies
+/practice-2/node_modules
+/practice-2/.pnp
+/practice-2/.pnp.js
+
+# testing
+/practice-2/coverage
+
+# production
+/practice-2/build
+
+# misc
+/practice-2/.DS_Store
+/practice-2/.env.local
+/practice-2/.env.development.local
+/practice-2/.env.test.local
+/practice-2/.env.production.local
+
+/practice-2/npm-debug.log*
+/practice-2/yarn-debug.log*
+/practice-2/yarn-error.log*
