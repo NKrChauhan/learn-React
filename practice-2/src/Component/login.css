@@ -1,0 +1,30 @@
+.colorPink {
+  color: rgb(47, 138, 133);
+  padding: 11px 11px 11px 11px;
+}
+
+.loginForm {
+  margin-top: 15vh;
+  padding: 25px;
+  color: black;
+  height: 55vh;
+  width: 40vw;
+}
+.btn-cust {
+  color: white;
+  width: 25%;
+  /* float: right; */
+  background-color: cadetblue;
+}
+
+.navbar {
+  color: rgb(47, 138, 133);
+  max-height: 25%;
+}
+
+.img-fluid {
+  margin-top: 13vh;
+}
+strong {
+  color: teal;
+}
