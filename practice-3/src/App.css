@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b32020;
+  background-image: url(./Animation/anime1.png);
+  background-repeat: no-repeat;
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: -17px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.border {
+  border-radius: 30px/10px;
+  float: right;
+  margin-left: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 40%;
+  overflow-wrap: break-word;
+  background-color: rgba(194, 118, 118, 0.186);
+  padding: 1%;
+}
+ul.fireflies {
+  list-style: none;
+}
+li {
+  background-size: cover;
+  background-color: rgba(128, 0, 128, 0.494);
+  border-radius: 50%;
+  width: 21px;
+  top: -20px;
+  height: 21px;
+  position: absolute;
+  animation: leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1),
+    updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
+}
+li:nth-of-type(2) {
+  animation-delay: 4s;
+  animation-duration: 17s, 8s;
+  animation-fill-mode: backwards, backwards;
+}
+li:nth-of-type(3) {
+  animation-delay: 1.5s;
+  animation-duration: 14s, 7s;
+  animation-fill-mode: backwards, backwards;
+}
+li:nth-of-type(4) {
+  animation-delay: 5.5s;
+  animation-duration: 10s, 13s;
+}
+li:nth-of-type(5) {
+  animation-fill-mode: backwards, backwards;
+  animation-duration: 12s, 15s;
+}
+
+@keyframes leftright {
+  0%,
+  100% {
+    left: 20%;
+  }
+  16.666% {
+    left: 90%;
+  }
+  33.333% {
+    left: 10%;
+  }
+  50% {
+    left: 50%;
+  }
+  66.666% {
+    left: 70%;
+  }
+  83.333% {
+    left: 40%;
+  }
+}
+
+@keyframes updown {
+  0%,
+  100% {
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+  25% {
+    top: 70%;
+  }
+  50% {
+    top: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  75% {
+    top: 70%;
+    width: 10px;
+    height: 10px;
+  }
+}
