@@ -55,3 +55,44 @@ body {
     padding: 0 6px;
   }
 }
+.border {
+  position: absolute;
+  border-radius: 30px/10px;
+  float: right;
+  top: 20%;
+  right: 1%;
+  width: 30%;
+  overflow-wrap: break-word;
+  background-color: rgba(194, 118, 118, 0.186);
+  padding: 1%;
+}
+.border1 {
+  position: absolute;
+  font-size: 10px;
+  text-align: left;
+  top: 30%;
+  left: 0%;
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.dropdown {
+  -webkit-appearance: unset;
+  -moz-appearance: initial;
+  border-radius: 15%;
+  padding: 2px;
+  width: 80%;
+  position: relative;
+  font-family: cursive;
+  color: white;
+  background-color: #a3112087;
+  border-color: #ef463a00;
+  outline: none;
+  font-family: monospace;
+}
+option {
+  margin: 40px;
+  background: rgba(255, 0, 0, 0.3);
+  color: wheat;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
