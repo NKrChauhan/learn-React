@@ -1,4 +1,4 @@
-## The ScreenShot of Project-1 built for functionality practice
+## The ScreenShot of Project-2 built for functionality practice
 
 ![](Screenshot.png)
 
