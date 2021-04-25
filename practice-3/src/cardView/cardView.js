@@ -7,6 +7,9 @@ function CardView(props) {
   useEffect(() => {
     setInfo(props.info);
   }, [props]);
+  function createMarkUP() {
+    return { __html: info.description };
+  }
   return (
     <div id="container">
       <table>
@@ -43,7 +46,7 @@ function CardView(props) {
         </tr>
       </table>
       <p style={{ color: "white" }}>--About--</p>
-      <p className="text">{info.description}</p>
+      <div className="text" dangerouslySetInnerHTML={createMarkUP()}></div>
     </div>
   );
 }
