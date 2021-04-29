@@ -69,3 +69,26 @@
 /practice-3/npm-debug.log*
 /practice-3/yarn-debug.log*
 /practice-3/yarn-error.log*
+
+# Project-4
+# dependencies
+/practice-4/node_modules
+/practice-4/.pnp
+/practice-4/.pnp.js
+
+# testing
+/practice-4/coverage
+
+# production
+/practice-4/build
+
+# misc
+/practice-4/.DS_Store
+/practice-4/.env.local
+/practice-4/.env.development.local
+/practice-4/.env.test.local
+/practice-4/.env.production.local
+
+/practice-4/npm-debug.log*
+/practice-4/yarn-debug.log*
+/practice-4/yarn-error.log*
